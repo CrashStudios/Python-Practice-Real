@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30406.217
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Python Practice", "Python Practice\Python Practice.pyproj", "{769B1C2B-9737-410F-A509-CF3F5439E6A6}"
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Contact Book", "Python Practice\Contact Book.pyproj", "{769B1C2B-9737-410F-A509-CF3F5439E6A6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

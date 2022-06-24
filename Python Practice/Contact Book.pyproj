@@ -3,13 +3,14 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>769b1c2b-9737-410f-a509-cf3f5439e6a6</ProjectGuid>
-    <ProjectHome>.</ProjectHome>
+    <ProjectHome>
+    </ProjectHome>
     <StartupFile>Python_Practice.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>Python Practice</Name>
+    <Name>Contact Book</Name>
     <RootNamespace>Python Practice</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
@@ -21,7 +22,25 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="package1\model.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="package1\main.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="package1\database.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="package1\views.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="package1\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Python_Practice.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="package1\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
